@@ -1,0 +1,28 @@
+@import url("styles/header.css");
+@import url("styles/section.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+:root {
+    --cor-de-fundo: #FFFFFF;
+    --cor-principal: #667085;
+    --cor-titulo: #3A404E;
+    --vermelho: #8E2424;
+    --cinza: #101828;
+    --cinza-claro: #98A2B3;
+    --fonte: "Inter", sans-serif;
+}
+
+body {
+    width: 1440px;
+    font-family: var(--fonte);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-principal);
+    background-color: var(--cor-de-fundo);
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        width: auto;
+    };
+}

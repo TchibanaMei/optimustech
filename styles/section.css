@@ -1,0 +1,203 @@
+.entrada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 407px;
+    gap: 24px;
+}
+
+.entrada__topico {
+    color: var(--vermelho);
+    font-weight: 600;
+}
+
+.entrada__titulo {
+    color: var(--cinza);
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.entrada__texto {
+    font-size: 20px;
+    width: 791px;
+}
+
+.metricas {
+    display: flex;
+    justify-content: center;
+    margin: 0 80px 96px 80px;
+    gap: 32px;
+}
+
+.metricas__card {
+    width: 280px;   
+}
+
+.meta__titulo {
+    color: var(--vermelho);
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.metricas__subtitulo {
+    color: var(--cinza);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+}
+
+.metricas__texto {
+    line-height: 24px;
+}
+
+.talentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.talentos__destaque {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--vermelho);
+    padding: 4px 12px;
+    border-radius: 16px;
+    background: rgba(142, 36, 36, 0.05);
+}
+
+
+.talentos__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cinza);
+    line-height: 44px;
+    margin: 16px 0 20px 0;
+}
+
+.talentos__texto {
+    font-size: 20px;
+}
+
+.talentos__img {
+    width: 1216px;
+    height: auto;
+    margin: 64px 0;
+}
+
+.vagas {
+    width: 768px;
+    margin: 0 auto;
+}
+
+.vagas__area {
+    color: var(--cinza);
+    font-size: 20px;
+    font-weight: 500;
+    margin: 32px 0;
+}
+
+.vagas__card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 32px;
+    margin-bottom: 24px;
+    padding: 24px 24px 28px 24px;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+}
+
+.card__titulo {
+    color: var(--cinza);
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.card__texto {
+    display: inline-flex;
+    gap: 24px;
+    font-weight: 500;
+}
+
+.vagas__bloco-desenvolvimento .vagas__area {
+    margin-top: 64px;
+}
+
+.colab__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    width: 1088px;
+    margin: 96px auto;
+    padding: 64px;
+    background: rgba(195, 25, 25, 0.03);
+    border-radius: 16px;
+}
+
+.colab__subtexto {
+    color: var(--vermelho);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.colab__titulo {
+    color: var(--cinza);
+    font-size: 36px;
+    font-weight: 500;
+    margin: 16px 0 32px 0;
+}
+
+.colab__nome {
+    color: var(--cinza);
+    font-size: 16px;
+    font-weight: 500;
+    margin: 16px 0 4px 0;
+}
+
+.colab__area {
+    font-size: 14px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F9FAFB;
+    padding: 96px 0;
+}
+.rodape__titulo {
+    color: var(--cinza);
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.rodape__texto {
+    font-size: 20px;
+    margin: 20px 0 40px;
+}
+
+.rodape__cadastro {
+    margin-bottom: 32px;
+}
+
+.rodape__email {
+    width: 330px;
+    margin-right: 16px;
+    padding: 12px 14px 12px 16px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+}
+
+.rodape__btn {
+    color: var(--cor-de-fundo);
+    background-color: var(--vermelho);
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+
+}
